@@ -15,7 +15,7 @@ export function AsideButton({ text, href }: asideButtonProps) {
     return (
         <Link
             className={`link ${
-                path === href ? "bg-gray-200 px-5" : ""
+                path === href ? "bg-gray-200 px-5 dark:text-gray-950" : ""
             } rounded-xl p-2 transition-all`}
             href={`${href}`}
             onClick={() => closeSideMenu()}

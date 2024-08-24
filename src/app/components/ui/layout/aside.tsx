@@ -34,7 +34,7 @@ export function AsideNav() {
                 )}
             >
                 <button
-                    className={`md:hidden rounded-lg bg-gray-200 w-12 h-12 flex justify-center items-center absolute ${
+                    className={`md:hidden rounded-lg bg-gray-200 dark:bg-gray-200 dark:text-gray-950 w-12 h-12 flex justify-center items-center absolute ${
                         isSideBarOpen ? "-right-6" : "-right-10"
                     } `}
                     onClick={() =>
