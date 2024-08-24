@@ -2,11 +2,15 @@
 
 import Link from "next/link";
 import { PiUserCircleThin } from "react-icons/pi";
+import { IoIosMenu } from "react-icons/io";
+import { useUIStore } from "@/store";
 
 export function Header() {
+    const openSideMenu = useUIStore((state) => state.openSideMenu);
+
     return (
         <header className="flex items-center gap-2 flex-col md:flex-row justify-between p-5 text-lg">
-            <div className="flex items-center  gap-5 md:self">
+            <div className="flex items-center gap-5 md:self">
                 <Link className="uppercase font-black text-xl" href="/">
                     Royal Drive
                 </Link>
@@ -17,7 +21,7 @@ export function Header() {
                     <Link href="/about">Acerca</Link>
                 </nav>
             </div>
-            <div className="flex">
+            <div className="hidden md:flex">
                 <button>
                     <PiUserCircleThin className="w-5 h-5 font-black" />
                 </button>

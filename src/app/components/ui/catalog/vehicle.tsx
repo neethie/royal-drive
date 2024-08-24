@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 type HoverVehicleProps = {
@@ -34,13 +35,16 @@ function HoverVehicle({ alt, src, newSrc }: HoverVehicleProps) {
 
 export function Vehicle() {
     return (
-        <div className="border p-2 flex flex-col w-fit">
-            <p className="font-black">Cayman Style</p>
+        <Link
+            className="border border-transparent p-2 flex flex-col w-fit hover:border-danube-200 rounded-xl"
+            href="/catalog/1"
+        >
             <HoverVehicle
                 alt="Cayman Style"
                 src="/images/catalog/cayman-style.png"
                 newSrc="/images/catalog/cayman-style-side.png"
             />
-        </div>
+            <p className="font-black">Cayman Style</p>
+        </Link>
     );
 }
