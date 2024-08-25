@@ -49,7 +49,7 @@ export function AsideNav() {
                 </button>
                 <h3 className="font-black uppercase  text-2xl">Menu</h3>
                 <nav className="flex flex-col gap-3 font-semibold">
-                    <AsideButton text="Home" href="/" />
+                    <AsideButton text="Inicio" href="/" />
                     <AsideButton text="Catálogo" href="/catalog" />
                     <AsideButton text="Contacto" href="/contact" />
                     <AsideButton text="Acerca" href="/about" />
