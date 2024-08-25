@@ -21,7 +21,7 @@ export function Header() {
     };
 
     return (
-        <header className="top-0 flex items-center gap-2 flex-col md:flex-row justify-between p-5 text-lg fixed bg-danube-50 w-full shadow-sm z-50">
+        <header className="top-0 flex items-center gap-2 flex-col md:flex-row justify-between p-5 text-lg fixed bg-danube-50 dark:bg-darkmode-darker w-full shadow-sm z-50">
             <div className="flex items-center gap-5 ">
                 <Link className="uppercase font-black text-xl" href="/">
                     Royal Drive

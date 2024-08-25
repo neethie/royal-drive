@@ -12,7 +12,7 @@ export function InputForm({ placeholder, id, end, textarea }: InputFormProps) {
             placeholder={placeholder}
             id={id}
             className={`
-                py-1 px-3 rounded-md uppercase text-xs border border-gray-300 ${
+                py-1 px-3 rounded-md uppercase text-xs border border-gray-300 dark:border-none dark:bg-darkmode-ligther ${
                     end ? "col-span-2" : ""
                 }
             `}
@@ -22,7 +22,7 @@ export function InputForm({ placeholder, id, end, textarea }: InputFormProps) {
             placeholder={placeholder}
             id={id}
             className="
-                py-1 px-3 rounded-md uppercase text-xs border border-gray-300 h-[100px] col-span-2
+                py-1 px-3 rounded-md uppercase text-xs border border-gray-300 h-[100px] col-span-2 dark:border-none dark:bg-darkmode-ligther
             "
         />
     );

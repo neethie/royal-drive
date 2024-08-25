@@ -21,7 +21,7 @@ export function Form() {
                 <input
                     type="submit"
                     value="Enviar"
-                    className="bg-darkmode-ligther px-5 py-2 rounded-2xl my-2 text-danube-50 text-sm w-fit transition-all hover:scale-105 "
+                    className="bg-darkmode-ligther px-5 py-2 rounded-2xl my-2 text-danube-50 text-sm w-fit transition-all hover:scale-105 cursor-pointer"
                 />
             </div>
         </form>
