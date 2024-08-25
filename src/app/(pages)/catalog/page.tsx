@@ -2,7 +2,7 @@ import { Vehicle } from "@/app/components/ui/catalog";
 
 export default function Catalog() {
     return (
-        <main className="my-5 mx-10 space-y-5">
+        <main className="my-5 md:my-24 mx-10 space-y-5">
             <div className="">
                 <h2 className="font-black text-2xl">Catálogo de autos</h2>
                 <p>Explora nuestros modelos Royal Drive!</p>

@@ -5,8 +5,8 @@ import { Button } from "../utils";
 
 export function Hero() {
     return (
-        <main className="sm:grid grid-cols-2 gap-x-3 min-h-[80vh] items-center justify-center">
-            <div className="px-5 flex flex-col z-10">
+        <main className="sm:grid grid-cols-2 gap-x-3 min-h-screen items-center justify-center">
+            <div className="px-5 flex flex-col">
                 <h1 className="text-4xl md:text-6xl font-black">
                     Eleva tu estilo, eleva tu conducción.
                 </h1>

@@ -36,7 +36,7 @@ function HoverVehicle({ alt, src, newSrc }: HoverVehicleProps) {
 export function Vehicle() {
     return (
         <Link
-            className="border border-transparent p-3 flex flex-col w-fit bg-danube-100 rounded-xl dark:bg-darkmode-ligther"
+            className="border border-transparent p-3 w-[200px] h-[150px] flex flex-col rounded-xl hover:bg-white relative"
             href="/catalog/1"
         >
             <p className="font-black">Cayman Style</p>
